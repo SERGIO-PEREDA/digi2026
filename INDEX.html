@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Repositorio - Lenguaje de Marcas</title>
+    <style>
+        /* Estilos básicos para que se vea ordenado y moderno */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        header h1 {
+            color: #2c3e50;
+            margin-bottom: 5px;
+            font-size: 2.5rem;
+        }
+        header p {
+            color: #7f8c8d;
+            font-size: 1.2rem;
+            margin: 0;
+        }
+        .container {
+            display: flex;
+            gap: 25px;
+            max-width: 800px;
+            width: 100%;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .card {
+            flex: 1;
+            background: white;
+            padding: 40px 20px;
+            text-align: center;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            text-decoration: none;
+            color: #333;
+            transition: transform 0.2s, box-shadow 0.2s;
+            border: 2px solid transparent;
+        }
+        /* Efecto al pasar el ratón por encima */
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+            border-color: #3498db;
+        }
+        .card h2 {
+            margin: 0 0 10px 0;
+            color: #2c3e50;
+            font-size: 1.8rem;
+        }
+        .card p {
+            color: #7f8c8d;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+<!-- TU NOMBRE ARRIBA -->
+<header>
+    <h1>SERGIO PEREDA</h1>
+    <p>Panel de Control - Repositorio de Prácticas</p>
+</header>
+
+<!-- LAS DOS OPCIONES -->
+<main class="container">
+
+    <!-- Opción 1: Digi -->
+    <a href="INDEX.html" class="card">
+        <h2>Digi</h2>
+        <p>ejercicios digi</p>
+    </a>
+
+    <!-- Opción 2: Marcas -->
+    <a href="marcas.html" class="card">
+        <h2>Marcas</h2>
+        <p>ejercicios marcas</p>
+    </a>
+
+</main>
+
+</body>
+</html>
