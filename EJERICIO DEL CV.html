@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Sergio Pereda</title>
+    <style>
+        /* Estilos generales */
+        body {
+            background-color: #f4f7f6;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .cv-container {
+            max-width: 800px;
+            width: 100%;
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+        }
+
+        header {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #fafafa;
+            border-radius: 6px;
+            margin-bottom: 30px;
+        }
+
+        header h1 {
+            font-size: 32px;
+            color: #222;
+            margin: 0;
+            letter-spacing: 1px;
+        }
+
+        h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #4a90e2;
+            padding-bottom: 5px;
+            margin-top: 30px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            color: #333;
+        }
+
+        /* Cuadrícula para los datos personales */
+        .grid-datos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            background-color: #f9f9f9;
+            padding: 15px;
+            border-radius: 6px;
+            border-left: 4px solid #4a90e2;
+        }
+
+        .dato-item {
+            font-size: 14px;
+            color: #555;
+        }
+
+        /* Listas de experiencia y formación */
+        .lista-items {
+            padding-left: 20px;
+            margin: 0;
+        }
+
+        .lista-items li {
+            margin-bottom: 8px;
+            color: #444;
+        }
+
+        .perfil-text {
+            color: #555;
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+
+<div class="cv-container">
+    <header>
+        <h1>SERGIO PEREDA</h1>
+    </header>
+
+    <section>
+        <h2>Datos Personales</h2>
+        <div class="grid-datos">
+            <div class="dato-item"><strong>NIE:</strong> Z47822249l</div>
+            <div class="dato-item"><strong>Teléfono:</strong> 12345678</div>
+            <div class="dato-item"><strong>Correo:</strong> sediño@hola.es</div>
+            <div class="dato-item"><strong>Ciudad:</strong> Donostia</div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Perfil Profesional</h2>
+        <p class="perfil-text">
+            Profesional con experiencia en el manejo y control de almacenes, destacando por una alta capacidad
+            de aprendizaje, adaptabilidad y un excelente dominio de sistemas informáticos. Motivado, proactivo
+            y con un fuerte compromiso hacia el desarrollo continuo de mis habilidades técnicas.
+        </p>
+    </section>
+
+    <section>
+        <h2>Experiencia Laboral</h2>
+        <ul class="lista-items">
+            <li>Ayudante de construcción</li>
+            <li>Ayudante de electricista</li>
+            <li>Dependiente en locutorio</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Formación Académica</h2>
+        <ul class="lista-items">
+            <li>Segundo de Bachillerato</li>
+            <li>Título en Administración de Empresas</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Competencias Técnicas</h2>
+        <ul class="lista-items">
+            <li><strong>Idiomas:</strong> Español</li>
+            <li><strong>Informática:</strong> Excelente manejo de ordenadores, herramientas de gestión y software de oficina.</li>
+            <li><strong>Logística:</strong> Control de almacén, inventariado y manejo de caja.</li>
+        </ul>
+    </section>
+</div>
+
+</body>
+</html>
